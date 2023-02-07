@@ -1,0 +1,52 @@
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  background-color: var(--dark-grayish-blue);
+  color: var(--light-cyan);
+  text-align: center;
+  padding: 1.6rem;
+  border-radius: 0.5rem;
+  max-width: 540px;
+}
+
+.card__title {
+  font-size: 0.8rem;
+  color: var(--neon-green);
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+
+.card__description {
+  font-size: 1.5rem;
+}
+
+.card__divider {
+  margin-bottom: 2rem;
+}
+
+.card__dice-button {
+  position: absolute;
+  bottom: -2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--neon-green);
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  border: none;
+}
+
+.card__dice-button:hover {
+  cursor: pointer;
+  box-shadow: 0 0 2rem var(--neon-green);
+}
+
+@media (min-width: 600px) {
+  .card__divider {
+    content: url("/pattern-divider-desktop.svg");
+  }
+}
