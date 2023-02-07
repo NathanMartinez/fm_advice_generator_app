@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github Repo](https://your-solution-url.com)
+- Solution URL: [Github Repo](https://github.com/NathanMartinez/fm_advice_generator_app)
 - Live Site URL: [Github Pages Site](https://your-live-site-url.com)
 
 ## My process
