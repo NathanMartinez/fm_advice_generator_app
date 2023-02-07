@@ -78,7 +78,7 @@ async function getAdvise() {
 
 ### Useful resources
 
-- [LogRocket - How to deploy a React app to Github Pages](https://blog.logrocket.com/deploying-react-apps-github-pages/) - This helped me to understand how to deploy this code to Github Pages.
+- [DEV - Deploying Vite App to GitHub Pages](https://dev.to/shashannkbawa/deploying-vite-app-to-github-pages-3ane) - This helped me to understand how to deploy this code to Github Pages.
 
 ## Author
 

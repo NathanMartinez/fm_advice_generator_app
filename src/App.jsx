@@ -41,13 +41,13 @@ function App() {
 				<h1 className="card__description">"{data.advice}"</h1>
 				<img
 					className="card__divider"
-					src="/pattern-divider-mobile.svg"
+					src="/fm_advise_generator_app/pattern-divider-mobile.svg"
 					alt="Icon divider"
 				/>
 				<button onClick={getAdvise} className="card__dice-button">
 					<img
 						className="card__dice-container__image"
-						src="/icon-dice.svg"
+						src="/fm_advise_generator_app/icon-dice.svg"
 						alt="Dice icon"
 					/>
 				</button>

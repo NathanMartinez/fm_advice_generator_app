@@ -25,6 +25,7 @@
 
 .card__divider {
   margin-bottom: 2rem;
+  content: url("/pattern-divider-mobile.svg");
 }
 
 .card__dice-button {
@@ -43,6 +44,10 @@
 .card__dice-button:hover {
   cursor: pointer;
   box-shadow: 0 0 2rem var(--neon-green);
+}
+
+.card__dice-container__image {
+  content: url("/icon-dice.svg");
 }
 
 @media (min-width: 600px) {
