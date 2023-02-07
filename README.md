@@ -27,12 +27,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./design/Screen%20Shot%202023-02-06%20at%207.50.12%20PM.png)
 
 ### Links
 
 - Solution URL: [Github Repo](https://github.com/NathanMartinez/fm_advice_generator_app)
-- Live Site URL: [Github Pages Site](https://your-live-site-url.com)
+- Live Site URL: [Github Pages Site](https://nathanmartinez.github.io/fm_advice_generator_app/)
 
 ## My process
 
@@ -49,21 +49,21 @@ Users should be able to:
 I liked this piece of code I used for the fetch request of the API.
 
 ```js
-	async function getAdvise() {
-		let response
+async function getAdvise() {
+	let response
 
-		try {
-			response = await fetch(API_URL)
-		} catch (error) {
-			console.error('There was an error', error)
-		}
-		if (response?.ok) {
-			const json = await response.json()
-			setData(json.slip)
-		} else {
-			console.error(`HTTP Response Code: ${response?.status}`)
-		}
+	try {
+		response = await fetch(API_URL)
+	} catch (error) {
+		console.error('There was an error', error)
 	}
+	if (response?.ok) {
+		const json = await response.json()
+		setData(json.slip)
+	} else {
+		console.error(`HTTP Response Code: ${response?.status}`)
+	}
+}
 ```
 
 ### Continued development
